@@ -1,1 +1,61 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TESKO UTM Technician Global</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f1f5f9;color:#183047}
+header{background:#102a43;color:white;padding:24px}
+main{max-width:760px;margin:25px auto;padding:16px}
+.card{background:white;padding:22px;border-radius:12px;margin-bottom:18px}
+h1{font-size:24px}h2{font-size:20px;color:#176b87}
+label{display:block;font-weight:bold;margin-top:15px}
+input,select,textarea{box-sizing:border-box;width:100%;padding:12px;margin-top:6px;border:1px solid #cbd5e1;border-radius:6px;font-size:16px}
+button{background:#176b87;color:white;border:0;padding:13px 18px;border-radius:7px;margin-top:20px;font-weight:bold}
+.note{font-size:13px;color:#64748b;line-height:1.5}
+</style>
+</head>
+<body>
+<header>
+<h1>TESKO UTM Technician Global</h1>
+<p>Global Marine & Offshore Inspection Recruitment</p>
+</header>
+<main>
+<section class="card">
+<h2>Candidate Application</h2>
+<p class="note">Register your qualifications for consideration by TESKO NDT.</p>
+<form onsubmit="event.preventDefault();alert('Demo only. Your application has not been submitted or saved.')">
+<label>Full Name *</label><input required>
+<label>Email Address *</label><input type="email" required>
+<label>Country of Residence *</label><input required>
+<label>Nearest International Airport *</label><input required>
+<label>UT Certification Level *</label>
+<select required><option value="">Select</option><option>UT Level 2</option><option>UT Level 3</option></select>
+<label>Certification Standard *</label>
+<select required><option value="">Select</option><option>ISO 9712</option><option>ASNT SNT-TC-1A</option><option>Other</option></select>
+<label>Shipboard UTM Experience (years) *</label><input type="number" min="0" required>
+<label>Previous Employers and Experience Evidence *</label><textarea required></textarea>
+<label>Valid Passport? *</label><select required><option value="">Select</option><option>Yes</option><option>No</option></select>
+<label>Valid Seaman's Book? *</label><select required><option value="">Select</option><option>Yes</option><option>No</option></select>
+<label>Travel Readiness *</label>
+<select required><option value="">Select</option><option>Within 24–48 hours</option><option>Within 2–5 days</option><option>More than 5 days</option></select>
+<label>Visa Status</label>
+<select><option>None</option><option>USA</option><option>Schengen</option><option>Canada</option><option>Australia</option><option>China</option><option>Great Britain (UK)</option><option>Other</option><option>In Progress</option></select>
+<label>Classification Society Reporting Capabilities *</label>
+<textarea required placeholder="ABS, BV, ClassNK, DNV, KR, Lloyd's Register, RINA, RMRS, IRS, CCS, Türk Loydu, Other"></textarea>
+<label>IRATA Level (Optional)</label>
+<select><option>None</option><option>Level 1</option><option>Level 2</option><option>Level 3</option></select>
+<label><input type="checkbox" required style="width:auto"> I confirm that my information is accurate.</label>
+<p class="note">Prototype only. No information is stored or transmitted. Do not enter real passport details or upload sensitive documents.</p>
+<button type="submit">Preview Application</button>
+</form>
+</section>
+<section class="card">
+<h2>Administrator Dashboard — Preview</h2>
+<p class="note">Candidate search, scoring, approval workflow, and secure evidence review require a database and administrator authentication. These features are not active in this prototype.</p>
+</section>
+</main>
+</body>
+</html>
